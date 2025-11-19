@@ -259,7 +259,7 @@ def EndGame(n):
     global clock, game
     print()
     if n==0:
-        print("К сожалению ваш персонаж погиб. :(")
+        print("К сожалению ваш персонаж погиб. :((")
     else:
         print(f"Поздравляю вы прошли на концовку: Концовка {n}")
     print(f"Время прохождения: {round((time()-clock)/60)} минут {(int(time()-clock)%60)} секунд")
