@@ -374,4 +374,6 @@ while game:
         EndGame(3)
     if point == [5,1]:
         EndGame(1)
+print("Нажмите Enter чтобы закрыть игру")
+a=int(input())
 
