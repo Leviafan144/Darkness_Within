@@ -6,8 +6,9 @@ def ask_yes():
     n = input().lower()
     while n != 'да' and n != "нет":
         print('Напиши да или нет')
-        n = input()
+        n = input().lower()
     return n == "да"
+
 print()
 print('Если хотите пропустить вступление? Напишите "да" или "нет"')
 if ask_yes():
