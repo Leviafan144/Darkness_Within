@@ -2,6 +2,7 @@ from time import time, sleep
 
 print("Darkness Within")
 
+print()
 def ask_yes():
     n = input().lower()
     while n != 'да' and n != "нет":
